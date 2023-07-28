@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        border: 2px black solid;
+      }
+
+
+      .topnav {
+        background-color: rgb(52,58,64);
+        align-content: center;
+        display: flex;
+        justify-content: space-between;
+        position: fixed; 
+        width: 100%;
+    }
+
+    .title{
+        color: white;
+        font-size: 30px;
+        padding-left: 30px;
+        position: relative;
+        top: 10px
+
+;
+    }
+
+    .navbar {
+        padding-right: 400px;
+    }
+    
+    li{
+        display: inline;
+        position: relative;
+        top: 10px;
+        padding: 0px 20px;
+    }
+    
+    
+    a {
+        text-decoration: none;  
+        position: relative;
+        top: 10px;
+        color: white;
+    }
+    
+    #navbar {
+        color: white;
+        font-size: 30px;
+        
+    }
+    
+    #home {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #link {
+        color: rgb(153,156,157);
+        font-size: 20px;
+    }
+    
+    #dropdown {
+        color: rgb(153,156,157);
+        font-size: 20px;
+        
+    }
+    
+    #disable {
+        color: rgb(153,156,157);
+        font-size: 20px;
+    }
+    
+    
+    .search {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    
+    
+    .text-area{
+        border-radius: 8px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 150px;
+        text-decoration: none;
+    }
+    
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: gray;
+        text-align: start;
+        font-size: 20px;
+        padding-left: 10px;
+        
+    }
+    
+    
+    
+    #bottone {
+        background-color: rgb(52,58,64);
+        color: green;
+        border: green solid 2px;
+        border-radius: 4px;
+        font-size: 23px;
+        padding: 11px;
+        margin-right: 20px;
+        
+    }
+    
+    #bottone:hover {
+        background-color: green;
+        color: white;
+      }
+
+
+      .hamburger{
+        display: none;
+        cursor: pointer;
+      }
+
+
+      .bar{
+        display: block;
+        position: relative;
+        top: 8px;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        background-color: white;
+      }
+
+
+      @media(max-width:768px){
+
+        .navbar {
+            display: none;
+        }
+
+        .search {
+            display: none;
+        }
+
+        .title {
+            padding-top: 15px;
+        }
+
+        .hamburger{
+          display: block;
+          padding: 20px;
+          margin-right: 30px;
+          margin-bottom: 20px;
+          
+        }
+    }
